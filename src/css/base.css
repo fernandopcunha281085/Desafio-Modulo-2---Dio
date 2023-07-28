@@ -51,10 +51,12 @@ li {
     border-bottom: solid 2px black;
 }
 .image-logo {
-    width: 350px;
+    width: 450px;
+    height: 130px;
     justify-content: center;
     display: block;
-    padding-left: 356px;
+    padding-left: 300px;
+    align-items: center;
 }
 .content {
     min-height: 300px;
