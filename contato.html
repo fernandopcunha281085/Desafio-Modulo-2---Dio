@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template - Utilizar como modelo</title>
-    <link rel="stylesheet" href="base.css">
-</head>
+    <title>Contato</title>
+    <link rel="stylesheet" href="./src/css/contato.css">
+    </head>
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
             <ul>
                 <li><a id="menu" href="/index.html">Página Inicial</a></li>
                 <li><a id="menu" href="/quemsomos.html">Sobre a clínica</a></li>
@@ -22,18 +21,79 @@
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <h2 class="h2-header">Fale Conosco</h2>
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <span>
+                    <div class="telefones">
+                        <h4>Nossos Contatos</h4>
+                        <ul>
+                            <div class="content-contato">
+                                <img src="./src/images/fone.png" class="fone">
+                                <li class="contato">  Telefone: (38) 32223-4588</li>
+                            </div>
+                            <div class="content-contato">
+                                <img src="./src/images/whatsApp.png" class="fone">
+                                <li class="contato">  WhatsApp: (38) 9 9854-4856</li>
+                            </div>    
+                            <div class="content-contato">
+                                <img src="./src/images/email.png" class="fone">
+                                <li class="contato">  E-mail provida@hospitalprovida.com</li>
+                            </div>
+                            <div class="content-contato">
+                                <img src="./src/images/mapa.png" class="fone">
+                                <li class="contato">Endereço: Avenida do Cruzeiro, nº 525, Mineirão - Montes Claros / MG</li>
+                            </div>      
+                        </ul>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.841232143946!2d-38.86676952595394!3d-6.4144407627297815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a3692a2609b215%3A0xf325b8095c2b9a37!2sMercantil%20Castro%20Amorim!5e0!3m2!1spt-BR!2sbr!4v1690504478085!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                    <div class="formulario">
+                    <h4>Solicite uma visita de nossos consultores para conheceros nossos planos.</h4>
+                    <form onsubmit="" method="get">
+                        <label>Nome:</label> <input type="text" name="name"><br><br>
+                        <label>Assunto:</label> <input type="text" name="subject"><br><br>
+                        <label>Mensagem:</label><br><br>
+                        <textarea name="message" rows="10" cols="50"></textarea><br>
+            
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                    </div>
+                    
+                </span>
+                
             </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                <h3 id="footer">Contato</h3>                 
+                <div class="container">
+                <ul>
+                    <div class="footer-contato">
+                        <img src="./src/images/fone.png" class="fone">
+                        <li class="contato">  Telefone: (38) 32223-4588</li>
+                    </div>
+                    <div class="footer-contato">
+                        <img src="./src/images/whatsApp.png" class="fone">
+                        <li class="contato">  WhatsApp: (38) 9 9854-4856</li>
+                    </div>    
+                    <div class="footer-contato">
+                        <img src="./src/images/email.png" class="fone">
+                        <li class="contato">  E-mail provida@hospitalprovida.com</li>
+                    </div>
+                    <div class="footer-contato">
+                        <img src="./src/images/mapa.png" class="fone">
+                        <li class="contato">Endereço: Avenida do Cruzeiro, nº 525, Mineirão - Montes Claros / MG</li>
+                    </div>      
+                </ul>
+                    <div class="footer-sociais">
+                    <h3 id="footer">Siga as nossas redes sociais</h3><br>
+                        <a href="https://www.instagram.com/"></a><img src="/src/images/instagram.png" alt="Instagram" class="rede-sociais">
+                        <a href="https://pt-br.facebook.com/"><img src="/src/images/facebook-icone-icon.png" alt="facebook" class="rede-sociais">
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F"><img src="/src/images/twitter.png" alt="Twitter" class="rede-sociais">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

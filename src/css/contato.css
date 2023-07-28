@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0; /*Falta um margin auto aqui (foi tirado para teste*/
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    /*width= 15%;*/
+    padding: 5px 20px 0px;
+    color: black;
+    border-right: solid 1px black;
+    
+}
+
+#menu {
+    text-decoration: none;
+    color: black;
+    /*list-style: none;*/
+}
+a:visited {
+    color: blue;
+}
+a:active {
+    color: rgb(223, 16, 16);
+}
+
+li {
+    margin-bottom: 20px; 
+}
+
+.header {
+    min-height: 150px;
+    border-bottom: solid 2px black;
+}
+.image-logo {
+    width: 350px;
+    justify-content: center;
+    display: block;
+    padding-left: 356px;
+}
+
+.header {
+    min-height: 150px;
+    border-bottom: solid 2px black;
+    background-image: url(/src/images/clinica-medica.jpg);
+    background-size: contain;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h2-header {
+    margin-top: 110px;
+    font-size: 50px;
+    text-shadow:2px 1px wheat;
+    margin-left: 10px;
+} 
+
+.content {
+    min-height: 300px;
+    padding: 5px 20px;
+    max-width: 900px;
+    text-shadow: white 0px 0px 2px;
+    
+}
+h4 {
+    color: blue;
+}
+span {
+    display: flex
+}
+.content-contato {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+iframe {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: rgb(163, 163, 228);
+    min-height: 150px;
+    border-top: solid 1px black;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer {
+    color: black;
+}
+.footer-contato {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.fone {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.container {
+    display: flex;
+    flex-direction:row
+    
+}
+.rede-sociais {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.footer-sociais {
+    align-items:self-start;
+    padding: 50px;
+}
