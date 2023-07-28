@@ -42,7 +42,8 @@ a:active {
 }
 
 li {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    list-style-type: none;
 }
 .header {
     min-height: 150px;
@@ -61,13 +62,16 @@ li {
     text-shadow: white 0px 0px 2px;
     
 }
-.especialidades {
-    display: flex; 
-    justify-content:left;
-    flex-direction: row
+
+.columns4 {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns:4; 
 }
+
 .image-cardiologia {
-    width: 50px;
+    width: 100px;
+    height: 60px;
 }
 
 h3, h1 {
